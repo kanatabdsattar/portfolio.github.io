@@ -1,0 +1,29 @@
+include ../globals.pug
+include ../layout/content-wrap
+include ../components/footer
+
+block variables
+
+<!DOCTYPE html>
+html(lang=lang)
+  head
+    each value in meta
+      meta&attributes(value)
+
+    title="LandingPage" + ' - ' + "29digits"
+
+    each link in links
+      link&attributes(link)
+
+    each script in scripts
+      script&attributes(script)
+
+  body
+    +content-wrap
+      block header
+
+      
+      block main
+
+      block footer 
+        +footer

@@ -1,0 +1,52 @@
+@use '../../config/' as *;
+
+.experiences{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    &__heading{
+        margin-bottom: 20px;
+        font-weight: $font-weight-main;
+        font-size: 24px;
+        color: $color-secondary;
+    }
+    &__info {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__def{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__date{
+        font-weight: $font-weight-main;
+        font-size: 14px;
+        color: $color-primary;
+    }
+    &__position{
+        font-weight: $font-weight-bolder;
+        font-size: 16px;
+        color: $color-tertiary;
+    }
+}
+.description{
+    font-weight: $font-weight-main;
+    font-size: 16px;
+    color: $color-primary;
+}
+.logo{
+    width: 260px;
+    object-fit: contain;
+    align-self: flex-start;
+}

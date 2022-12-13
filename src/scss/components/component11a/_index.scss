@@ -1,0 +1,63 @@
+@use '../../config/' as *;
+
+@use '../../config/' as *;
+
+.paper {
+    padding: 0 0 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    &__name{
+        font-weight: $font-weight-main;
+        font-size: 16px;
+        color: #E0E0E0;
+    }
+    &__banner{
+        padding-top: 30px;
+    }
+    &__title{
+        font-weight: $font-weight-main;
+        color: $color-tertiary;
+        font-size: 24px;
+        width: 50%;
+        line-break: 2;
+        align-self: flex-start;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__img{
+        width: 300px;
+        height: 350px;
+        border-radius: 12px 0 0 12px;
+
+    }
+    &__link{
+        color: #2F80ED;       
+    }
+    &__text{
+        font-weight: $font-weight-main;
+        font-size: 16px;
+        color: $color-primary;
+    }
+    &__text2{
+        font-weight: $font-weight-main;
+        font-size: 16px;
+        color: $color-primary;
+    }
+    &__head{
+        display: flex;
+        padding: 20px 0 0 20px;
+        justify-content: space-between;
+    }
+    &__words{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-right: 105px;
+    }
+}

@@ -1,0 +1,80 @@
+@use "../../config/" as *;
+@use "../../helper/" as *;
+
+.person {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    &__title {
+        display: flex;
+        font-family: $font-primary;
+        font-weight: $font-weight-bolder;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__mail {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    &__call-phone {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    &__text{
+        padding-right: 15px;
+    }
+    &__info{
+        display: none;
+    }
+    &__ava {
+        width: 100%;
+        border-radius: 12px;
+    }
+}
+.name{
+    font-weight: $font-weight-bolder;
+    color: $color-secondary;
+    font-size: 24px;
+}
+.job{
+    font-weight: $font-weight-main;
+    color: $color-primary;
+    font-size: 18px;
+}
+.email {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.email-logo{
+    font-weight: $font-weight-main;
+    color: $color-secondary;
+    font-size: 18px;
+}
+.call{
+    font-weight: $font-weight-main;
+    color: $color-secondary;
+    font-size: 18px;
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.info{
+    font-weight: $font-weight-main;
+    color: $color-primary;
+    font-size: 18px;
+}

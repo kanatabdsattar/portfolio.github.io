@@ -1,0 +1,17 @@
+extends ../template/page
+include ../components/layer-one
+include ../components/layer-two
+
+
+
+
+block variables
+  - const pageTitle = 'index';
+
+block main
+  main
+    - let author = {status: false}
+    if author.status
+      +layer-two
+    else 
+      +layer-one

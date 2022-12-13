@@ -1,0 +1,50 @@
+@use '../../config/' as *;
+
+.skills {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    width: 47.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+  }
+  .heading{
+    font-weight: $font-weight-bold;
+    font-size: 18px;
+    color: $color-secondary;
+  }
+  .subject {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 35px;
+    &__heading{
+    width: 130px;
+    font-weight: $font-weight-main;
+    font-size: 16px;
+    color: $color-secondary;
+  }
+  }
+  progress {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+  
+    width: 280px;
+    height: 10px;
+    border-radius: 20px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #cfcfcf;
+    border-radius: 20px;
+    height: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #2f80ed;
+    border-radius: 20px;
+  }
+  

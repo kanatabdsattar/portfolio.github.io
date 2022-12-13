@@ -1,0 +1,19 @@
+@use '../../config/' as *;
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    .text{
+        font-weight: $font-weight-main;
+        font-size: 14px;
+        color: $color-primary;
+    }
+    .link{
+        font-weight: $font-weight-bold;
+        font-size: 14px;
+        color: $color-primary;
+        text-decoration: underline;
+    }
+}

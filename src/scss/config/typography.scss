@@ -1,0 +1,15 @@
+@use './color' as *;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+$font-size-base: 16px;
+
+$font-primary: 'Montserrat';
+$font-base: 'Montserrat';
+
+$font-size: rem(20);
+
+$font-weight-main: 500;
+$font-weight-bolder: 600;
+$font-weight-bold: 700;
+
+$color-font: $black;
+$color-font-inverse: $white;

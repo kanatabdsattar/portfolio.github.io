@@ -1,0 +1,35 @@
+@use '../../config/' as *;
+.paging{
+    width: 100%;
+    &__img{
+        width: 20px;
+        height: 20px
+    }
+    &__img-arr{
+        width: 15px;
+        height: 15px
+    }
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.number{
+    display: flex;
+    padding: 10px;
+    border: 2px solid $color-secondary;
+    align-items: center;
+    border-radius: 6px;
+    color: $color-secondary;
+}
+.w{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.dots{
+    display: flex;
+    align-items: center;
+}

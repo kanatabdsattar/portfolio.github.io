@@ -1,0 +1,7 @@
+@use '../../config/' as *;
+
+.section-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

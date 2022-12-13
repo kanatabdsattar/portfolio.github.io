@@ -1,0 +1,10 @@
+@use '../../config/' as *;
+.section-last{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .way-two {
+        display: flex;
+        justify-content: space-between;
+    }
+}

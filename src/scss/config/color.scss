@@ -1,0 +1,17 @@
+$white: #fff;
+$black: #000000;
+
+$primary: #828282;
+$secondary: #4F4F4F;
+$tertiary: #333333;
+$accent: #b31e1a;
+
+$text-primary: #000000;
+$text-secondary: #5A5A5A;
+$text-light: #ffffff;
+
+:root{
+    --primary-color: #{$white};
+    --secondary-color: #{$primary};
+    --tertiary-color: #{$secondary};
+}

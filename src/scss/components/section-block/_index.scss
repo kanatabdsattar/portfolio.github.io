@@ -1,0 +1,6 @@
+@use '../../config/' as *;
+.section-block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

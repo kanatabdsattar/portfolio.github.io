@@ -1,0 +1,11 @@
+@use 'generic';
+@use '../config/' as *;
+
+section, footer {
+    position: relative;
+    padding: 0 calc((100% - $content-width) / 2);
+}
+
+header, footer, section {
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}

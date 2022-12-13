@@ -1,0 +1,38 @@
+@use '../../config/' as *;
+
+.object{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+    .button{
+        display: flex;
+        gap: 20px;
+    .btn1{
+            border: 2px solid $color-secondary;
+            padding: 10px 30px;
+            border-radius: 15px;
+            color: $color-secondary;
+        }
+    .btn2{
+            border: 2px solid $color-secondary;
+            padding: 10px 30px;
+            border-radius: 15px;
+            color: $color-secondary;
+        }
+    .btn3{
+        border: 2px solid $color-secondary;
+        padding: 10px 30px;
+        border-radius: 15px;
+        color: $color-secondary;
+        }
+    }
+    .title{
+        font-weight: $font-weight-main;
+        font-size: 18px;
+        color: $color-secondary;
+    }
+}

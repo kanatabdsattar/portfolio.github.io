@@ -1,0 +1,14 @@
+@forward 'breakpoint';
+
+@mixin responsive-width($max-width) {
+  @media (max-width: $max-width) {
+    @content;
+  }
+}
+
+@mixin responsive-width-range($min-width, $max-width) {
+  @media (min-width: $min-width) and (max-width: ($max-width - 1)) {
+    @content;
+  }
+}
+

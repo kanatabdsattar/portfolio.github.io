@@ -1,0 +1,60 @@
+@use '../../config/' as *;
+.index{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    &__banner{
+
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__buttons{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        &--btn1{
+            background-color: #2F80ED;
+            padding: 16px 32px;
+            border-radius: 12px;
+            color: $color-white;
+        }
+        &--btn2{
+            border: 2px solid #2F80ED;
+            padding: 16px 32px;
+            border-radius: 12px;
+            color: #2F80ED;
+        }
+    }
+    &__text{
+        font-weight: $font-weight-main;
+        font-size: 16px;
+        color: $color-primary;
+    }
+    &__title{
+        font-weight: $font-weight-main;
+        font-size: 24px;
+        color: $color-tertiary;
+    }
+    .image{
+        width: 1000px;
+        object-fit: cover;
+        border-radius:12px;
+    }
+    .lang{
+        display: flex;
+        gap: 10px;
+    }
+    .type{
+        font-weight: $font-weight-main;
+        font-size: 16px;
+        color: $color-secondary;
+    }
+}
